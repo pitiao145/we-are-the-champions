@@ -1,0 +1,107 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', 'Inter';
+    background-color: #1B1924;
+    color: #ffff;
+    user-select: none;
+}
+
+#container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 30px auto;
+    align-items: center;
+}
+
+#container img {
+    width: 90px;
+    height: 90px;
+    background: url(freddie.png);
+    margin-bottom: 17px;
+}
+
+h1 {
+    max-width: 272px;
+    max-height: 25px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-bottom: 19px;
+}
+
+#endorsement-input {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+    height: 118px;
+    background: #444059;
+    border-radius: 8px;
+    margin-bottom: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8F8F8F;
+
+}
+
+#from-to-btns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 19px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+}
+
+#from-to-btns input {
+    box-sizing: border-box;
+    height: 40px;
+    background: #444059;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8F8F8F;
+    flex-grow: 1;
+
+}
+button {
+    width: 100%;
+    height: 61px;
+    background: #28A9F1;
+    border-radius: 8px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #04131C;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+
