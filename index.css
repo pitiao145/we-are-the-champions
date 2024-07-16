@@ -1,4 +1,5 @@
 html, body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', 'Inter';
@@ -55,10 +56,11 @@ h1 {
     font-size: 15px;
     line-height: 18px;
     color: #8F8F8F;
-
+    border: none;
 }
 
 #from-to-btns {
+    border: none;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 19px;
@@ -70,6 +72,7 @@ h1 {
 }
 
 #from-to-btns input {
+    border: none;
     box-sizing: border-box;
     height: 40px;
     background: #444059;
@@ -87,6 +90,7 @@ h1 {
 
 }
 button {
+    border: none;
     width: 100%;
     height: 61px;
     background: #28A9F1;
@@ -99,9 +103,40 @@ button {
     color: #04131C;
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
+#endorsements-text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+#endorsements {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.endorsement-box {
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1924;
+    padding: 40px 14px;
+    margin-bottom: 13px;
+}
+
+@media (max-width: 430px) {
+    #container {
+        margin: 30px 15px;
+    }
+}
 
 
 
