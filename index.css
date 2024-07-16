@@ -64,8 +64,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 19px;
-    margin-left: 10px;
-    margin-right: 10px;
     width: 100%;
     gap: 10px;
     justify-content: center;
@@ -73,7 +71,6 @@ h1 {
 
 #from-to-btns input {
     border: none;
-    box-sizing: border-box;
     height: 40px;
     background: #444059;
     border-radius: 8px;
@@ -87,7 +84,6 @@ h1 {
     text-align: center;
     color: #8F8F8F;
     flex-grow: 1;
-
 }
 button {
     border: none;
